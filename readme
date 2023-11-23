@@ -1,0 +1,39 @@
+# Hangman Game
+
+**Author:** Jeremiah E. Ochepo
+
+**Last Edited:** 2/23/2017
+
+## Description:
+
+This is a simple implementation of the Hangman game in Python. It allows two players to play against each other. Player 1 enters a word, and Player 2 attempts to guess the word by suggesting letters. Player 2 has a limited number of chances to guess the correct word.
+
+## How to Play:
+
+1. **Player 1 (Word Setter):**
+    - Enter your name when prompted.
+    - Enter the word you want Player 2 to guess.
+    - Choose the number of chances (maximum 8) Player 2 will have.
+
+2. **Player 2 (Guesser):**
+    - Enter your name when prompted.
+    - Guess letters to reveal the hidden word.
+    - You have a limited number of chances to guess the word.
+
+3. **Game Rules:**
+    - Win the game by correctly guessing the word within the allowed chances.
+    - The hangman figure will be drawn as you make incorrect guesses.
+    - The game ends when Player 2 either correctly guesses the word or runs out of chances.
+
+## How to Run:
+
+1. Make sure you have Python installed on your system.
+2. Run the script in a Python environment.
+
+```bash
+python hangman.py
+```
+
+3. Follow the on-screen instructions to play the game.
+
+Have fun playing Hangman!
